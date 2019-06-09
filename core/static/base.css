@@ -1,0 +1,13 @@
+body{
+    font-family: verdana;
+}
+page{}
+barraup{}
+darradown{}
+menu{}
+footer{}
+p.nome{}
+p.copy{
+    text-align: center;
+    font-style: italic;
+}

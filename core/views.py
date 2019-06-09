@@ -4,4 +4,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def base(request):
-    return HttpResponse(base.html)
+    return render(
+        request,
+        'base.html'
+    )
