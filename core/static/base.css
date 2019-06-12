@@ -1,16 +1,15 @@
-body{
-    font-family: verdana;
-}
-#barra ul{
+body{    font-family:verdana;}
+.barra ul{
+    font-family: arial;
     padding:0px;
     margin:0px;
     background-color:#EDEDED;
     list-style:none;
 }
-#barra ul li {
+.barra ul li {
     display: inline;
 }
-#barra ul li a {
+.barra ul li a {
     padding: 2px 10px;
     display: inline-block;
 
@@ -20,18 +19,29 @@ body{
     text-decoration: none;
     border-bottom:3px solid #EDEDED;
 }
-#barra ul li a:hover {
+.barra ul li a:hover {
     background-color:#D6D6D6;
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
 }
 page{}
-barraup{}
-darradown{}
-menu{}
-footer{}
-p.nome{}
+barraup{
+    font-family:arial;
+}
+darradown{    font-family:arial;}
+menu{    font-family:arial;}
+footer{    font-family:arial;}
+p.nome{    font-family:arial;}
 p.copy{
     text-align: center;
     font-style: italic;
 }
+header#cabecalho{
+    background-color:rgb(255,255,0);
+    border: 8px solid rgb(0,0,0);
+    padding:10px;
+    margin-left: -10px;
+    margin-right:-10px;
+    margin-top:-10px;
+    margin-bottom:-10px;
+    }
