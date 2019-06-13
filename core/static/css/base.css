@@ -1,11 +1,11 @@
-    html {
-      height: 100%;
-    }
-    body {
-      min-height: 100%;
-      display: grid;
-      grid-template-rows: 1fr auto;
-    }
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
 #barrac ul{
     font-family: arial;
     padding:0px;
